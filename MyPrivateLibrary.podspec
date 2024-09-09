@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   DESC
   s.homepage     = 'https://github.com/survildhaduk-easternts/myLibraryIos'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.author       = { 'Your Name' => 'survil.easternts@gmail.co'' }
+  s.author       = { 'Your Name' => 'survil.easternts@gmail.com'' }
   s.source       = { :git => 'https://github.com/survildhaduk-easternts/myLibraryIos.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
   s.source_files = 'MyPrivateLibrary/**/*.{h,m,swift}'
