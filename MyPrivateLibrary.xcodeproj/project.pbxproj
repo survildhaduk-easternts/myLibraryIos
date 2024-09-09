@@ -11,6 +11,8 @@
 		88BD2AEC2C8F197B00D59CF6 /* MyPrivateLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BD2AE12C8F197B00D59CF6 /* MyPrivateLibrary.framework */; };
 		88BD2AF12C8F197B00D59CF6 /* MyPrivateLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BD2AF02C8F197B00D59CF6 /* MyPrivateLibraryTests.swift */; };
 		88BD2AF22C8F197B00D59CF6 /* MyPrivateLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 88BD2AE42C8F197B00D59CF6 /* MyPrivateLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88BD2AFC2C8F1F9400D59CF6 /* MyPrivateLibrary.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 88BD2AFB2C8F1F9400D59CF6 /* MyPrivateLibrary.podspec */; };
+		88BD2AFD2C8F1F9400D59CF6 /* MyPrivateLibrary.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 88BD2AFB2C8F1F9400D59CF6 /* MyPrivateLibrary.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,7 @@
 		88BD2AE52C8F197B00D59CF6 /* MyPrivateLibrary.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MyPrivateLibrary.docc; sourceTree = "<group>"; };
 		88BD2AEB2C8F197B00D59CF6 /* MyPrivateLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPrivateLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BD2AF02C8F197B00D59CF6 /* MyPrivateLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPrivateLibraryTests.swift; sourceTree = "<group>"; };
+		88BD2AFB2C8F1F9400D59CF6 /* MyPrivateLibrary.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyPrivateLibrary.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +56,7 @@
 		88BD2AD72C8F197B00D59CF6 = {
 			isa = PBXGroup;
 			children = (
+				88BD2AFB2C8F1F9400D59CF6 /* MyPrivateLibrary.podspec */,
 				88BD2AE32C8F197B00D59CF6 /* MyPrivateLibrary */,
 				88BD2AEF2C8F197B00D59CF6 /* MyPrivateLibraryTests */,
 				88BD2AE22C8F197B00D59CF6 /* Products */,
@@ -177,6 +181,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88BD2AFC2C8F1F9400D59CF6 /* MyPrivateLibrary.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88BD2AFD2C8F1F9400D59CF6 /* MyPrivateLibrary.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
